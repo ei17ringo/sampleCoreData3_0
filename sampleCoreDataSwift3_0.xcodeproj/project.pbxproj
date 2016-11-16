@@ -14,6 +14,9 @@
 		19BA39B01DDC22CB009E42CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19BA39AE1DDC22CB009E42CC /* LaunchScreen.storyboard */; };
 		19BA39BB1DDC22CB009E42CC /* sampleCoreDataSwift3_0Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19BA39BA1DDC22CB009E42CC /* sampleCoreDataSwift3_0Tests.swift */; };
 		19BA39C61DDC22CB009E42CC /* sampleCoreDataSwift3_0UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19BA39C51DDC22CB009E42CC /* sampleCoreDataSwift3_0UITests.swift */; };
+		19BA39E41DDC256B009E42CC /* CoreModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 19BA39E21DDC256B009E42CC /* CoreModel.xcdatamodeld */; };
+		19BA39EB1DDC2745009E42CC /* Tweet+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19BA39E91DDC2745009E42CC /* Tweet+CoreDataClass.swift */; };
+		19BA39EC1DDC2745009E42CC /* Tweet+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19BA39EA1DDC2745009E42CC /* Tweet+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		19BA39C11DDC22CB009E42CC /* sampleCoreDataSwift3_0UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sampleCoreDataSwift3_0UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		19BA39C51DDC22CB009E42CC /* sampleCoreDataSwift3_0UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sampleCoreDataSwift3_0UITests.swift; sourceTree = "<group>"; };
 		19BA39C71DDC22CB009E42CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19BA39E31DDC256B009E42CC /* CoreModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreModel.xcdatamodel; sourceTree = "<group>"; };
+		19BA39E91DDC2745009E42CC /* Tweet+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Tweet+CoreDataClass.swift"; path = "sampleCoreDataSwift3_0/Tweet+CoreDataClass.swift"; sourceTree = "<group>"; };
+		19BA39EA1DDC2745009E42CC /* Tweet+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Tweet+CoreDataProperties.swift"; path = "sampleCoreDataSwift3_0/Tweet+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +83,8 @@
 		19BA39991DDC22CB009E42CC = {
 			isa = PBXGroup;
 			children = (
+				19BA39E91DDC2745009E42CC /* Tweet+CoreDataClass.swift */,
+				19BA39EA1DDC2745009E42CC /* Tweet+CoreDataProperties.swift */,
 				19BA39A41DDC22CB009E42CC /* sampleCoreDataSwift3_0 */,
 				19BA39B91DDC22CB009E42CC /* sampleCoreDataSwift3_0Tests */,
 				19BA39C41DDC22CB009E42CC /* sampleCoreDataSwift3_0UITests */,
@@ -103,6 +111,7 @@
 				19BA39AC1DDC22CB009E42CC /* Assets.xcassets */,
 				19BA39AE1DDC22CB009E42CC /* LaunchScreen.storyboard */,
 				19BA39B11DDC22CB009E42CC /* Info.plist */,
+				19BA39E21DDC256B009E42CC /* CoreModel.xcdatamodeld */,
 			);
 			path = sampleCoreDataSwift3_0;
 			sourceTree = "<group>";
@@ -263,7 +272,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				19BA39A81DDC22CB009E42CC /* ViewController.swift in Sources */,
+				19BA39EB1DDC2745009E42CC /* Tweet+CoreDataClass.swift in Sources */,
+				19BA39E41DDC256B009E42CC /* CoreModel.xcdatamodeld in Sources */,
 				19BA39A61DDC22CB009E42CC /* AppDelegate.swift in Sources */,
+				19BA39EC1DDC2745009E42CC /* Tweet+CoreDataProperties.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -532,6 +544,19 @@
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		19BA39E21DDC256B009E42CC /* CoreModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				19BA39E31DDC256B009E42CC /* CoreModel.xcdatamodel */,
+			);
+			currentVersion = 19BA39E31DDC256B009E42CC /* CoreModel.xcdatamodel */;
+			path = CoreModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 19BA399A1DDC22CB009E42CC /* Project object */;
 }
